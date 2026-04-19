@@ -1,0 +1,30 @@
+
+# AWS Credentials
+*.pem
+*.key
+credentials
+.aws/
+kaggle.json
+project-arns.txt
+
+# Sensitive config
+config.json
+secrets.json
+*.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large files
+*.zip
+*.tar.gz
+*.pth
+/tmp/
+
+# Logs
+*.log
+nohup.out
